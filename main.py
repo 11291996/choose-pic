@@ -144,4 +144,4 @@ with gr.Blocks("Image", "Image") as demo:
     button2.click(choose_right, outputs=[gallery, textbox3])
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
