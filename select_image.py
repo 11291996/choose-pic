@@ -27,7 +27,6 @@ while True:
         elif key == ord("b"):
             images_to_move.append(images[idx])
             images.pop(idx)
-            idx += 1
         else:
             print("Press 'm' to move the next image")
             print("Press 'n' to see the previous image")
